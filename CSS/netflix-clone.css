@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 90px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.btn-sm button {
+    background-color: #E50914;
+    color: white;
+    padding: 9px 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-sm button:hover {
+    background-color: #d3151f;
+}
+
+.hero {
+    background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 73%)), url(../netflix-clone-assets/Images/bg-img.jpg);
+    background-size: cover;
+    padding: 200px 100px 100px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.hero-text {
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero-text  :nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-text  :nth-child(3) {
+    font-size: 14px;
+}
+
+.btn-lg {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-lg input {
+    padding: 15px 190px 15px 15px;
+    border-radius: 3px;
+    background: transparent linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 47%));
+    border: 2px solid rgb(89, 89, 89);
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-lg input::placeholder {
+    font-weight: bold;
+    font-size: 15px;
+    color: #A9A9A9;
+    font-family: sans-serif;
+}
+
+.btn-lg button {
+    background-color: #E50914;
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-lg button:hover {
+    background-color: #d3151f;
+}
+
+.red-line {
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    height: 100px;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-top: solid .25rem #DD0F23;
+    position: relative;
+    bottom: 30px;
+    width: 130%;
+    left: -15%;
+}
+
+ .trend {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px;
+    gap: 30px;
+    margin-bottom: 45px;
+}
+
+.cards img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards img {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+.cards img:hover {
+  transform: scale(1.05);
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: hidden;
+    margin-bottom: 45px;
+}
+
+.box {
+    height: 315px;
+    width: 248px;
+    background-color: #1D172D;
+    border-radius: 15px;
+    padding: 23px;
+    position: relative;
+}
+
+.txt {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.box p {
+    color: #B3B4BE;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.box img {
+    position: absolute;
+    top: 233px;
+    left: 172px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 75vw;
+    background-color: #2D2D2D;
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line:hover {
+    background-color: #414141;
+}
+
+.line h4 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.last {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.last-txt {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.last .btn-lg input {
+    padding: 19px 380px 15px 15px;
+    background-color: #0F0F0F;
+}
+
+.last .btn-lg button {
+    padding: 14px 27px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 40px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0 50px 0;
+}
+
+footer a {
+    color: #ACACAC;
+}
+
+footer .mid {
+    display: flex;
+    align-items: flex-start;
+    gap: 125px;
+}
+
+footer .down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+footer .down p {
+    color: #ACACAC;
+}
+
+footer .down select {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 5px 27px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+footer a,p  {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer .up {
+    text-align: center;
+}
+
+/* Animation classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in.delay {
+    transition-delay: 0.3s;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
+}

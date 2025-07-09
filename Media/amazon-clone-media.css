@@ -1,0 +1,138 @@
+@media (max-width: 1250px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+
+@media (max-width: 1250px) {
+    .first {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .form input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 545px) {
+    .left {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 545px) {
+    .form input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 412px) {
+    .form input {
+        width: 145px;
+    }
+}
+
+@media (max-width: 660px) {
+    .nav-panel {
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 780px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 300px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 663px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 250px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 546px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 212px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 533px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 206px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 461px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 178px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 395px) {
+    .bg {
+        background-image: url(../amazon-clone-assets/Images/hero_image.jpg);
+        background-size: cover;
+        height: 153px;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 1104px) {
+    .bar {
+        font-size: 11px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 890px) {
+    .foot-list {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 60px;
+    }
+}
+
+@media (max-width:492px) {
+    .panel-ops {
+        justify-content: center;
+    }
+}
+
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .foot-list {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  .foot-list ul {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}

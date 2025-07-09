@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/crud-app.css">
+  <link rel="stylesheet" href="Media/crud-app-media.css">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/table.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>CRUD APPLICATION</h1>
+  </header>
+  <main class="container">
+    <div class="top-bar">
+      <h2>Students List</h2>
+      <button class="add-btn" onclick="addStudent()">Add Student</button>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Serial #</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>CNIC</th>
+            <th>Password</th>
+            <th>Gender</th>
+            <th>Date/Time</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="studentTableBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination">
+  <button onclick="prevPage()">Prev</button>
+  <span id="pageInfo">Page 1</span>
+  <button onclick="nextPage()">Next</button>
+</div>
+  </main>
+</body>
+<script src="Javascript/crud-app.js"></script>
+</html>

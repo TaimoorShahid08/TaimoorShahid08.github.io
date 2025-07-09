@@ -1,0 +1,79 @@
+@media (max-width:776px) {
+    .btn-lg {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width:330px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:410px) {
+    .btn-lg input {
+        padding: 15px 110px 15px 15px;
+    }
+}
+
+@media (max-width:1129px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1129px) {
+    .boxes {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1129px) {
+    .last .btn-lg {
+       flex-direction: column;
+    }
+}
+
+@media (max-width:605px) {
+    .last .btn-lg input {
+        padding: 15px 110px 15px 15px;
+    }
+}
+
+@media (max-width:1129px) {
+    .mid {
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+    }
+}
+
+@media (max-width:283px) {
+    .hero-text h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 324px) {
+    .btn-lg input {
+        padding: 15px 35px 15px 15px;
+    }
+
+    .trend {
+        padding: 0 10px;
+    }
+
+    .box img {
+        left: 122px;
+    }
+
+    .last .btn-lg input {
+        padding: 15px;
+    }
+
+    .last .btn-lg button {
+        padding: 14px 9px;
+    }
+}

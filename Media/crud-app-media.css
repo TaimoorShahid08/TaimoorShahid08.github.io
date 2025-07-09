@@ -1,0 +1,111 @@
+/* Mobile devices (max-width: 1176px) */
+@media (max-width: 1176px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 20px 10px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .top-bar h2 {
+    font-size: 1.5rem;
+  }
+
+  .add-btn {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    align-self: center;
+  }
+
+  .table-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  td {
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #00f0ff;
+    font-size: 0.9rem;
+  }
+
+  .update-btn,
+  .delete-btn {
+    width: auto;               
+    margin-top: 8px;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    align-self: flex-start;    
+  }
+}
+
+/* Tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 30px 15px;
+  }
+
+  .top-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top-bar h2 {
+    font-size: 1.8rem;
+  }
+
+  .add-btn {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    font-size: 1rem;
+  }
+}
