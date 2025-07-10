@@ -88,12 +88,13 @@ nav {
 }
 
 .btn-lg input {
-    padding: 15px 190px 15px 15px;
+    padding: 15px 0px 15px 15px;
     border-radius: 3px;
     background: transparent linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 47%));
     border: 2px solid rgb(89, 89, 89);
     border-radius: 5px;
     color: white;
+     width: 20rem;
 }
 
 .btn-lg input::placeholder {
